@@ -12,6 +12,8 @@ int main()
 	s.push(6);
 	cout<<s.top()<<endl;
 	s.pop();
+	s.size();
+	s.empty();
 	cout<<s.top()<<endl;
 
 }
