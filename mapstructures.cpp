@@ -8,7 +8,7 @@ int main()
 	m["banana"] = 3;
 	m["lion"] = 1;
 	cout<<m["monkey"]<<endl;
-	cout<<m["eagle"]<<endl; // bele olanda default olaraq sifir edir cavabi
+	cout<<m["eagle"]<<endl; // if this is not inside the map, the answer will be 0
 	
 	if(m.count("monkey"))
 	{
