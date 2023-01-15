@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// strings are also dynamic arrays as vectors, but they
+// strings are also dynamic arrays as vectors
 // substr(x,y) returns the elements of the string in the given interval
 
 int main(){
