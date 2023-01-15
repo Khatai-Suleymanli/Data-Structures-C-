@@ -17,6 +17,7 @@ int main(){
 	}
 	
 	cout<<v1.back()<<"\n"; //5
+	cout<<vq.front()<<"\n";
 	cout<<v1.at(2);  // this is preffered ov erv1[2] 
 	v1.pop_back(); //[3,2]
 			
