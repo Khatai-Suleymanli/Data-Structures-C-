@@ -11,11 +11,11 @@ int main()
 	s[4] = 1;
 	cout<<s[4]<<endl;
 	cout<<s[1]<<endl;
-	cout<<s[5]<<endl;  //bele element yoxdur deye 0 verir
-	cout<<s.count()<<endl; //icindeki 1 lerin sayini gosterir
+	cout<<s[5]<<endl;  //if there is no such element it returns 0
+	cout<<s.count()<<endl; //shows the count of 1 in the given bitset
 	
 	
 	//bitset yaratmagin basqa yolu
 	bitset <10> m(string("0101101101")); 
-	cout<<m[4]<<endl;  //sagdan sola oxuyur
+	cout<<m[4]<<endl;  //from right to left
 }
